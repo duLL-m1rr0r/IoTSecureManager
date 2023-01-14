@@ -56,7 +56,7 @@ The smart contract file is contracts/IoTSecureManager.sol in IotSecureManager di
 
 ## Listener/
 Main files are abi.json & listener.js in Listener directory, the rest are just npm packages.  
-abi.json file needs to be updated if any changes are made to IoTSecureManager.sol, just replace with the abi part of the content in IoTSecureManager/build/contracts/IoTSecureManager.json after new compile of the modified IoTSecureManager.sol .
+NOTE: abi.json file needs to be updated if any changes are made to IoTSecureManager.sol, just replace with the abi part of the content in IoTSecureManager/build/contracts/IoTSecureManager.json after new compile of the modified IoTSecureManager.sol .
 
 ## Reference
 1. Securely Controlling Hardware Devices with Blockchain: https://medium.com/coreledger/securely-controlling-hardware-devices-with-blockchain-642af4308529
