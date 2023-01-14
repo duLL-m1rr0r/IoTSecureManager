@@ -1,0 +1,87 @@
+Deployed on Goreli Testnet: https://goerli.etherscan.io/tx/0xb31f387e91dde6d8de7ad607b878bb3f74ab4cfe7c9077701814d0799505535c
+
+$ truffle migrate --network goerli
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'goerli-fork'
+> Network id:      5
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_deploy_contract.js
+====================
+
+   Deploying 'IoTSecureManager'
+   ----------------------------
+   > block number:        8290653
+   > block timestamp:     1673401306
+   > account:             0x1Da9bA917564Ba1a890CFB3a9202f9FB908917CE
+   > balance:             0.18822005468334676
+   > gas used:            981696 (0xefac0)
+   > gas price:           2.50000161 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00245424158053056 ETH
+
+   -------------------------------------
+   > Total cost:     0.00245424158053056 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.00245424158053056 ETH
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'goerli'
+> Network id:      5
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_deploy_contract.js
+====================
+
+   Deploying 'IoTSecureManager'
+   ----------------------------
+   > transaction hash:    0xb31f387e91dde6d8de7ad607b878bb3f74ab4cfe7c9077701814d0799505535c
+   > Blocks: 2            Seconds: 17
+   > contract address:    0xE2cAa03cad6a785ff4623E23390b3217e901A0c2
+   > block number:        8290660
+   > block timestamp:     1673401332
+   > account:             0x1Da9bA917564Ba1a890CFB3a9202f9FB908917CE
+   > balance:             0.188220054680401672
+   > gas used:            981696 (0xefac0)
+   > gas price:           2.500001613 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002454241583475648 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.002454241583475648 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.002454241583475648 ETH
+
+
+UnhandledRejections detected
+Promise {
+  <rejected> {
+    code: -32603,
+    message: 'ETIMEDOUT',
+    data: { originalError: [Object] }
+  }
+} {
+  code: -32603,
+  message: 'ETIMEDOUT',
+  data: { originalError: { code: 'ETIMEDOUT', connect: true } }
+}
