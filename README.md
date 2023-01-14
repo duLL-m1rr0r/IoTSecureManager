@@ -54,10 +54,10 @@ Though this method of IoT data transmission prevents data being modified from un
 ## IoTSecureManager/ 
 The smart contract file is contracts/IoTSecureManager.sol in IotSecureManager directory.
 
-## Listener
+## Listener/
 Main files are abi.json & listener.js in Listener directory, the rest are just npm packages.
 
-## Reference/
+## Reference
 1. Securely Controlling Hardware Devices with Blockchain: https://medium.com/coreledger/securely-controlling-hardware-devices-with-blockchain-642af4308529
 2. Solidity Event: https://docs.soliditylang.org/en/v0.4.24/contracts.html#events
 3. Web3 Event Listener: https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#contract-events
